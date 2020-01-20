@@ -1,0 +1,8 @@
+.background {
+    margin: 5px auto;
+    min-height: 400px;
+    color: pink;
+    border-radius: 5px;
+    background-image: url('../../../img/gezi1.jpg');
+    background-size: 100% 100%;
+}
