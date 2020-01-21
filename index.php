@@ -75,7 +75,7 @@
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4 tm-section-title">What He Can Do</h2>
                         <p class="mb-4 tm-intro-text">
-                            Gézengúz is our dog since a long time. He is the best friend of the family and he can do a lot of thing. He is just not clever, but he knows always when and where is the food ready. He is also the master of the acting.
+                            Gézengúz is our dog since a long time. He is the best friend of the family and he can do a many things. He is not just clever, but he knows always when and where is the food ready. He is also the master of actinging.
                             <br>
                             Below you can find the most important features of Gézengúz.
                     </div>
