@@ -290,7 +290,7 @@
             </div>
             
             <div class="col-sm-12 col-md-6">
-              <form action="" method="get">
+              <form id="send_mail">
                 <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
                 <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
                 <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
@@ -351,9 +351,37 @@
     <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/easing.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Firebase setup-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+    <!-- TODO store keys on server side-->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCv3kM26qLb-DyMENsNUnAOcwFQCzlxHLU",
+            authDomain: "gezenguz-c7046.firebaseapp.com",
+            databaseURL: "https://gezenguz-c7046.firebaseio.com",
+            projectId: "gezenguz-c7046",
+            storageBucket: "gezenguz-c7046.appspot.com",
+            messagingSenderId: "299919847423",
+            appId: "1:299919847423:web:e8551cfdba82ae133841ca",
+            measurementId: "G-T5G3RQSV8C"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
     <script>
 
+        // after pre implemented functions provided by the template
       function getOffSet(){
         var _offset = 450;
         var windowHeight = window.innerHeight;
