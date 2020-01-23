@@ -7,3 +7,6 @@ Php tutorial
 
 # Search engine optimization:
 - https://support.google.com/webmasters/answer/7451184?hl=en *(Configuration, Tipps, Best practices etc. by Google)*
+
+# Php tutorials
+- https://codinginfinite.com/getting-started-web-application-php-mysql-tutorials/ *(For crup api and mysql db setup)*
